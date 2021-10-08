@@ -1,4 +1,4 @@
-import { Favoritos } from './favoritos';
+import { Favorito } from './favoritos';
 import { Filme } from './filme';
 
 export class PerfilLogin {
