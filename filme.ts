@@ -5,7 +5,7 @@ type genero = "Ação" | "Romance" | "Terror" | "Comédia" | "Documentário";
 export class Filme implements CategoriaFilme {
 
 
-    constructor(public codFilme:number, public nome: string, public anoLancamento: number, public atores: string, public sinopse: string, public genero: genero, public duração: string, public metragem:string) {}
+    constructor(private codFilme:number, private nome: string, private anoLancamento: number, private atores: string, private sinopse: string, public genero: genero, public duração: string, public metragem:string) {}
     
 
     get getCodfilme(){
