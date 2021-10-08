@@ -30,4 +30,8 @@ perfil2.addFimlme(filme2)
 
 console.log(usu1.getPerfis)
 
+// perfil2.removeFilme(filme2)
+
+console.log(usu1.getPerfis)
+
 

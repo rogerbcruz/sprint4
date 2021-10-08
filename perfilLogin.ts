@@ -29,9 +29,9 @@ export class PerfilLogin {
         this.favoritos.push(filme)
     }
 
-    removeFilme(filme: Filme, favoritos: Array<Filme>) {
-        let index = favoritos.indexOf(filme)
-        favoritos.splice(index);
+    removeFilme(filme: Filme) {
+        let index = this.favoritos.indexOf(filme)
+        this.favoritos.splice(index,1);
     }
 
   
