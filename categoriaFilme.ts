@@ -4,4 +4,5 @@ export interface CategoriaFilme {
     genero: genero;
     duração:string;
     metragem:string;
+    
 }
