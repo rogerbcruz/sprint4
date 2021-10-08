@@ -2,19 +2,19 @@ import { PerfilLogin } from "./perfilLogin";
 
 export class Login {
 
-    constructor(readonly idlogin: number, public nome:string, protected email: string, protected senha: string, protected cpf: string, protected perfis: Array<PerfilLogin>) { }
+    constructor(readonly idlogin: number, protected nome:string, protected email: string, protected senha: string, protected cpf: string, protected perfis: Array<PerfilLogin>) { }
 
     get getIdlogin() {
         return this.idlogin;
     }
-
-    get getEmail() {
-        return this.email
-    }
-
+    
     get getNome(){
         return this.nome;
     }
+    
+        get getEmail() {
+            return this.email
+        }
 
     set setEmail(email: string) {
         this.email = email;
